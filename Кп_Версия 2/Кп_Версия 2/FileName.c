@@ -160,7 +160,7 @@ void Find_Square(struct Materials materials[], int size, double Find_of_Square) 
     printf("\nРезультаты поиска по площади \"%s\":\n", Find_of_Square);
     printf("------------------------------------------------\n");
     for (int i = 0; i < size; ++i) {
-        if  (materials[i].square == Find_of_Square) {
+        if (materials[i].square == Find_of_Square) {
             printf("| %25s | %10s |\n", "Название", materials[i].name);
             printf("| %25s | %10d |\n", "Цена", materials[i].price);
             printf("| %25s | %10.lf |\n", "Площадь", materials[i].square);
